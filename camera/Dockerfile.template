@@ -1,0 +1,4 @@
+FROM bluenviron/mediamtx:latest-ffmpeg-rpi
+ENV UDEV=on
+COPY ./start.sh /usr/bin/
+ENTRYPOINT [ "/usr/bin/start.sh" ]
