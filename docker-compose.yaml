@@ -20,5 +20,3 @@ services:
     network_mode: host
     privileged: true
     restart: always
-    environment:
-      - MTX_PATHS_CAM_SOURCE=rpiCamera
